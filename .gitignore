@@ -1,0 +1,3 @@
+task_eng/
+__pycache__/
+db.sqlite3
