@@ -10,3 +10,7 @@ def contact(request):
 
 def show_task(request):
     return HttpResponse("this is our task page")
+
+def show_specific_task(request, id):
+    print("id",id)
+    return HttpResponse(f"This is specific task page {id}")
