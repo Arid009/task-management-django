@@ -14,3 +14,6 @@ def show_task(request):
 def show_specific_task(request, id):
     print("id",id)
     return HttpResponse(f"This is specific task page {id}")
+
+def show_admin(request):
+    return HttpResponse("this is admin")
